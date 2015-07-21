@@ -1,0 +1,54 @@
+###Windows###
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+
+###Linux###
+
+!.gitignore
+*~
+
+# KDE
+.directory
+
+
+###OSX###
+
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+/docker/sonar/
+
+/webserver/conf/cron/crontab
+
+/webserver/sites/*
+!/webserver/sites/phpmyadmin
+/webserver/sites/.bash_history
+/webserver/logs/*
+
+/webserver/sites/phpmyadmin/CONTRIBUTING.md
+/webserver/sites/phpmyadmin/ChangeLog
+/webserver/sites/phpmyadmin/DCO
+/webserver/sites/phpmyadmin/LICENSE
+/webserver/sites/phpmyadmin/README
+/webserver/sites/phpmyadmin/RELEASE-DATE-4.3.4
+/webserver/sites/phpmyadmin/doc/*
+
+/percona/congs/my.cnf
+/percona/data/*
+/percona/logs/*
+
+/redis/logs/*
