@@ -47,7 +47,7 @@ $RECYCLE.BIN/
 /webserver/sites/phpmyadmin/RELEASE-DATE-4.3.4
 /webserver/sites/phpmyadmin/doc/*
 
-/percona/congs/my.cnf
+/percona/conf/my.cnf
 /percona/data/*
 /percona/logs/*
 
